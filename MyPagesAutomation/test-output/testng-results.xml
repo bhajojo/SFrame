@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63186" started-at="2017-04-08T05:16:33Z" finished-at="2017-04-08T05:17:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63186" started-at="2017-04-08T05:16:33Z" finished-at="2017-04-08T05:17:36Z">
+      <class name="pckgSeleniumFramework.Parallel">
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:pckgSeleniumFramework.Parallel@26a78299]" name="f" duration-ms="30222" started-at="2017-04-08T10:47:06Z" data-provider="dp" finished-at="2017-04-08T10:47:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FIREFOX1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:pckgSeleniumFramework.Parallel@26a78299]" name="f" duration-ms="1195" started-at="2017-04-08T10:47:06Z" data-provider="dp" finished-at="2017-04-08T10:47:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CHROME1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- pckgSeleniumFramework.Parallel -->
+      <class name="pckgSeleniumFramework.ParallelTestNG">
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:pckgSeleniumFramework.ParallelTestNG@1c3736ac]" name="f" duration-ms="32751" started-at="2017-04-08T10:46:33Z" data-provider="dp" finished-at="2017-04-08T10:47:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FIREFOX1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- pckgSeleniumFramework.ParallelTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
